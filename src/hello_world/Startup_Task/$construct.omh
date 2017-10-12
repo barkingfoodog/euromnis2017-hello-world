@@ -1,9 +1,9 @@
 If isclear($libs.$findname("omnistap"))
-	Do $libs.$add(con("!!!",FileOps.$parentdir(FileOps.$parentdir($clib.$pathname)),pathsep(),"lib",pathsep(),"omnistap.lbs"))
+	Do $libs.$add(con(FileOps.$parentdir($clib.$pathname),pathsep(),"omnistap.lbs"))
 End If
 
 If isclear($libs.$findname("omniscli"))
-	Do $libs.$add(con("!!!",FileOps.$parentdir(FileOps.$parentdir($clib.$pathname)),pathsep(),"lib",pathsep(),"omniscli.lbs"))
+	Do $libs.$add(con(FileOps.$parentdir($clib.$pathname),pathsep(),"omniscli.lbs"))
 End If
 
 Do $libs.omnistap.$objects.ogOmnisTAPCLI.$newref() Returns lorCLI
