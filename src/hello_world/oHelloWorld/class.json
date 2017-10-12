@@ -1,10 +1,6 @@
 {
-	"classtype": "kTask",
-	"internalversion": 14,
-	"superclass": "omnistap.kgTAPTask",
-	"tvardefs": [
-
-	],
+	"classtype": "kObjectclass",
+	"internalversion": 3,
 	"cvardefs": [
 
 	],
@@ -15,13 +11,15 @@
 		"collectperformancedata": false,
 		"componenticon": 0,
 		"componenttype": "kCompStoreHidden",
-		"createdate": "2017-10-04 22:17:02",
+		"createdate": "2017-10-11 21:56:20",
 		"desc": "",
+		"designtaskname": "Startup_Task",
 		"editor": "",
 		"editordata": "",
-		"external": false,
+		"external": true,
 		"issupercomponent": false,
-		"moddate": "2017-10-11 22:00:57",
+		"moddate": "2017-10-11 21:59:25",
+		"selfcontained": false,
 		"showascheckedout": false,
 		"userinfo": "",
 		"version": ""

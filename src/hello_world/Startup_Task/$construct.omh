@@ -1,3 +1,5 @@
-OK message  {Hello world! It's good to be alive and at Euromnis!}
+OK message  {[loHelloWorld.$getMessage()]}
 
-Quit Omnis
+If sys(2)<>17
+	Quit Omnis
+End If

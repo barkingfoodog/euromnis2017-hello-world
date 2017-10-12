@@ -1,0 +1,3 @@
+Do iorMock.$getMessage() Returns lcMessage
+Calculate lcExpectedMessage as "Hello world! It's good to be alive and at Euromnis!"
+Do ioTAP.$is_char(lcMessage,lcExpectedMessage,"We get the right message")
