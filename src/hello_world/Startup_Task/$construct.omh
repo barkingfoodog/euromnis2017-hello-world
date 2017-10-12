@@ -1,14 +1,5 @@
-If isclear($libs.$findname("omnistap"))
-	Do $libs.$add(con(FileOps.$parentdir($clib.$pathname),pathsep(),"omnistap.lbs"))
-End If
-
-If isclear($libs.$findname("omniscli"))
-	Do $libs.$add(con(FileOps.$parentdir($clib.$pathname),pathsep(),"omniscli.lbs"))
-End If
-
-Do $libs.omnistap.$objects.ogOmnisTAPCLI.$newref() Returns lorCLI
-If lorCLI.$isRunningFromCLI()=kTrue
-	Do lorCLI.$processCLICommand()
+Do $cinst.$processCLI() Returns lbCLIRun
+If lbCLIRun=kTrue
 	Quit method
 End If
 

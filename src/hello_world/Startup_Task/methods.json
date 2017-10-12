@@ -8,6 +8,13 @@
 		],
 		"lvardefs": [
 			{
+				"name": "lbCLIRun",
+				"order": 3,
+				"type": "kBoolean",
+				"subtype": 0,
+				"sublen": 0
+			},
+			{
 				"name": "loHelloWorld",
 				"order": 1,
 				"type": "kObject",
@@ -21,17 +28,6 @@
 				"subtype": "oCLI",
 				"sublen": 0
 			}
-		]
-	},
-	{
-		"name": "$destruct",
-		"ident": 1,
-		"order": 16385,
-		"pvardefs": [
-
-		],
-		"lvardefs": [
-
 		]
 	}
 ]
