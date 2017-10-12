@@ -6,7 +6,12 @@ If isclear($libs.$findname("omniscli"))
 	Do $libs.$add(con("!!!",FileOps.$parentdir($clib.$pathname),pathsep(),"omniscli.lbs"))
 End If
 
-Do inherited
+Do $objects.oCLI.$newref() Returns lorCLI
+If lorCLI.$isRunningFromCLI()=kTrue
+	Do lorCLI.$processCLICommand()
+	Quit method
+End If
+Do lorCLI.$deleteref()
 
 Open trace log
 Send to trace log {[loHelloWorld.$getMessage()]}
