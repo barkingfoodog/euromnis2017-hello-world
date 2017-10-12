@@ -2,7 +2,3 @@ Do inherited
 
 Open trace log
 Send to trace log {[loHelloWorld.$getMessage()]}
-
-If sys(2)<>17
-	Quit Omnis
-End If
