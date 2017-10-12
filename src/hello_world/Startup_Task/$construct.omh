@@ -1,3 +1,8 @@
+If isclear($libs.$findname("omnistap"))
+	Calculate lcPathToOmnisTAP as con(FileOps.$parentdir($clib.$pathname),pathsep(),"omnistap.lbs")
+	Do $libs.$add(con("!!!",lcPathToOmnisTAP))
+End If
+
 Do inherited
 
 Open trace log

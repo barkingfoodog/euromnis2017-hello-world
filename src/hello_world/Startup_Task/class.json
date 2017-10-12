@@ -1,12 +1,18 @@
 {
 	"classtype": "kTask",
-	"internalversion": 17,
+	"internalversion": 20,
 	"superclass": "omnistap.kgTAPTask",
 	"tvardefs": [
 
 	],
 	"cvardefs": [
-
+		{
+			"name": "lcPathToOmnisTAP",
+			"order": 1,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000
+		}
 	],
 	"ivardefs": [
 
@@ -21,7 +27,7 @@
 		"editordata": "",
 		"external": false,
 		"issupercomponent": false,
-		"moddate": "2017-10-11 22:10:13",
+		"moddate": "2017-10-11 22:16:27",
 		"showascheckedout": false,
 		"userinfo": "",
 		"version": ""
