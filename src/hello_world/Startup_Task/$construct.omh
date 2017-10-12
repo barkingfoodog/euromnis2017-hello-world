@@ -1,17 +1,12 @@
 If isclear($libs.$findname("omnistap"))
-	Do $libs.$add(con("!!!",FileOps.$parentdir($clib.$pathname),pathsep(),"omnistap.lbs"))
+	Do $libs.$add(con("!!!",FileOps.$parentdir(FileOps.$parentdir($clib.$pathname)),pathsep(),"lib",pathsep(),"omnistap.lbs"))
 End If
 
 If isclear($libs.$findname("omniscli"))
-	Do $libs.$add(con("!!!",FileOps.$parentdir($clib.$pathname),pathsep(),"omniscli.lbs"))
+	Do $libs.$add(con("!!!",FileOps.$parentdir(FileOps.$parentdir($clib.$pathname)),pathsep(),"lib",pathsep(),"omniscli.lbs"))
 End If
 
-Do $objects.oCLI.$newref() Returns lorCLI
-If lorCLI.$isRunningFromCLI()=kTrue
-	Do lorCLI.$processCLICommand()
-	Quit method
-End If
-Do lorCLI.$deleteref()
+Do inherited
 
 Open trace log
 Send to trace log {[loHelloWorld.$getMessage()]}
