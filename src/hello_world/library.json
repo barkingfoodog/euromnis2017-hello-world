@@ -1,8 +1,7 @@
 {
 	"omnisversion": "8.1.1",
 	"includes": [
-		"OMNISTAP",
-		"OMNISCLI"
+		"OMNISTAP"
 	],
 	"properties": {
 		"extension": false,
