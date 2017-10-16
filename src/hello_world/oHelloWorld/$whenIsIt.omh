@@ -1,0 +1,1 @@
+Quit method con("It is ",$cinst.$_getMessageTime(),".")

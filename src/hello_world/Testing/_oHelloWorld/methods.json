@@ -33,5 +33,29 @@
 				"sublen": 100000000
 			}
 		]
+	},
+	{
+		"name": "$u_whenIsIt",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "lcExpectedWhenIsIt",
+				"order": 2,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000
+			},
+			{
+				"name": "lcWhenIsIt",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000
+			}
+		]
 	}
 ]

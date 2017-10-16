@@ -1,1 +1,1 @@
-Quit method "Hello world! It's good to be alive and at Euromnis on Monday morning before the break!"
+Quit method con("Hello world! It's good to be alive and at Euromnis on ",$cinst.$_getMessageTime(),"!")
