@@ -1,3 +1,0 @@
-Do iorMock.$whenIsIt() Returns lcWhenIsIt
-Calculate lcExpectedWhenIsIt as "It is Monday evening in Heelsum."
-Do ioTAP.$is_char(lcWhenIsIt,lcExpectedWhenIsIt,"We can return the time")
