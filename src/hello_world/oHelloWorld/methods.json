@@ -9,5 +9,27 @@
 		"lvardefs": [
 
 		]
+	},
+	{
+		"name": "$whatTimeIsIt",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$_getTime",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
 	}
 ]
