@@ -5,3 +5,4 @@ End If
 
 Open trace log
 Send to trace log {[loHelloWorld.$getMessage()]}
+Send to trace log {[loHelloWorld.$whatTimeIsIt()]}

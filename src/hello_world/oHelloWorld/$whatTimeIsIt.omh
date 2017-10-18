@@ -1,1 +1,1 @@
-Quit method "It is 20 minutes until break."
+Quit method con("It is ",$cinst.$_getTime(),".")
